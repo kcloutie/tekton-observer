@@ -1,0 +1,12 @@
+apiVersion: observer.tkn.dev/v1
+kind: TektonObservation
+metadata:
+  labels:
+    app.kubernetes.io/name: tektonobservation
+    app.kubernetes.io/instance: tektonobservation-sample
+    app.kubernetes.io/part-of: tekton-observer
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: tekton-observer
+  name: tektonobservation-sample
+spec:
+  # TODO(user): Add fields here
